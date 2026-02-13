@@ -1,0 +1,15 @@
+{
+  "name": "russian-vps-panel",
+  "version": "1.0.0",
+  "description": "Web-based VPS terminal in Russian",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "node-pty": "^1.0.0",
+    "systeminformation": "^5.21.8"
+  }
+}
